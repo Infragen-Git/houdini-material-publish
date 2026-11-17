@@ -35,13 +35,11 @@ Name a material `CODE_Name` (`GV_Galvanized`, 2–3 capitals) or reuse a name th
 (`Concrete` -> CN). A new code is created on its first publish.
 
 ## Install
-1. Install houdini-asset-bank first.
-2. Clone into your Houdini preferences folder (`Documents/houdini22.0` here):
-   ```
-   git clone https://github.com/Infragen-Git/houdini-material-publish asset_bank_publish
-   ```
-3. Copy `packages/asset_bank_publish.json` into `Documents/houdini22.0/packages/`.
-4. Asset Bank panel > Settings > *Publish token* (the same token as the Blender exporter's).
+Installed and updated together with houdini-asset-bank by its `install.ps1` (see that README):
+```
+powershell -ExecutionPolicy Bypass -File "$([Environment]::GetFolderPath('MyDocuments'))\houdini22.0sset_bank\install.ps1"
+```
+Then Asset Bank panel > Settings > *Publish token* (the same token as the Blender exporter's).
 
 ## Layout
 ```
