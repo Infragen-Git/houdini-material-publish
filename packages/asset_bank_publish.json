@@ -1,0 +1,7 @@
+{
+    "env": [
+        {"ASSET_BANK_PUBLISH_HOME": "$HOUDINI_USER_PREF_DIR/asset_bank_publish"},
+        {"PYTHONPATH": {"value": "$ASSET_BANK_PUBLISH_HOME/python", "method": "prepend"}}
+    ],
+    "hpath": "$ASSET_BANK_PUBLISH_HOME"
+}
