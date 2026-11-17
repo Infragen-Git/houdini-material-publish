@@ -37,7 +37,7 @@ Name a material `CODE_Name` (`GV_Galvanized`, 2–3 capitals) or reuse a name th
 ## Install
 Installed and updated together with houdini-asset-bank by its `install.ps1` (see that README):
 ```
-powershell -ExecutionPolicy Bypass -File "$([Environment]::GetFolderPath('MyDocuments'))\houdini22.0sset_bank\install.ps1"
+powershell -ExecutionPolicy Bypass -File "$([Environment]::GetFolderPath('MyDocuments'))\houdini22.0\asset_bank\install.ps1"
 ```
 Then Asset Bank panel > Settings > *Publish token* (the same token as the Blender exporter's).
 
